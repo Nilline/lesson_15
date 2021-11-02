@@ -760,7 +760,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	min-width: 300px;
-	margin: 0px calc(-15px + -57 * ((100vw - 320px) / (1920 - 320)));
+	margin: 0px -72px;
 	row-gap: 50px;
 }
 .footer__column {
@@ -768,7 +768,15 @@ body {
 	flex-direction: column;
 	flex: 1 1 33.333%;
 	min-width: 320px;
-	padding: 0px calc(15px + 57 * ((100vw - 320px) / (1920 - 320)));
+	padding: 0px 72px;
+}
+@media (max-width: 1212px) {
+	.footer__row {
+		margin: 0px calc(-15px + -57 * ((100vw - 320px) / (1920 - 320)));
+	}
+	.footer__column {
+		padding: 0px calc(15px + 57 * ((100vw - 320px) / (1920 - 320)));
+	}
 }
 .footer__logo {
 	display: block;
