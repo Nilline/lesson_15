@@ -484,17 +484,7 @@ body {
 		width: 75%;
 	}
 }
-@media (min-width: 849.98px) and (max-width: 1149.98px) {
-	.as-we-work__item {
-		flex: 0 1 33.333%;
-	}
-	.as-we-work__item:nth-child(3n + 3) .as-we-work__decor-bottom {
-		width: 75%;
-		left: 65px;
-		transform: translate(0px, 0px);
-	}
-}
-@media (min-width: 549.98px) and (max-width: 849.98px) {
+@media (min-width: 549.98px) and (max-width: 1149.98px) {
 	.as-we-work__item {
 		flex: 0 1 50%;
 	}
